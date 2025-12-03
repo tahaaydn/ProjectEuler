@@ -21,8 +21,6 @@ def timer(func):
 
 # ---
 
-is_prime = lambda n: all(n%i != 0 for i in range(2, int(n**.5)+1))
-
 # @timer
 # def no_remainder(limit: int) -> int:
 #     number = limit
